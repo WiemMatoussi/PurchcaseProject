@@ -87,11 +87,11 @@ public class Main {
 		    		int prix1=sc.nextInt();
 		    		Produit P2= new Produit(r1,  prix1, "Livre", "Littérature", 5);
 
-		    		LigneCommande L= new LigneCommande(1, qte, F, P1);
+		    		LigneCommande L= new LigneCommande(1, qte, P1);
 		    		System.out.println("Entrer la quantité du deuxième produit");
 		    		int qt=sc.nextInt();
 
-		    		LigneCommande L1= new LigneCommande(1, qt, F, P2);
+		    		LigneCommande L1= new LigneCommande(1, qt, P2);
 		    		double q=L.montantLigneCommande();
 		    		double q1=L1.montantLigneCommande();
 		  	

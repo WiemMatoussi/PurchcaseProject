@@ -9,7 +9,7 @@ public class LigneCommande {
 
 
 
-	public LigneCommande(int idLigneCommande, double quantiteLigne, Facture f, Produit p) {
+	public LigneCommande(int idLigneCommande, double quantiteLigne, Produit p) {
 		
 		this.idLigneCommande = idLigneCommande;
 		this.quantiteLigne = quantiteLigne;
