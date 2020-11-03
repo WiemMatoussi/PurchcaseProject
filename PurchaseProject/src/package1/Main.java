@@ -112,7 +112,7 @@ public class Main {
 		    		System.out.println("Exit selected");
 		    		break;
 		    	default:
-		    		System.out.println("Invalid selection");
+		    		System.out.println("Invalid selection \n");
 		    		break; 
 		    	}
 		  
