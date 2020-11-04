@@ -8,7 +8,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		 int session;
- 		 Administrateur administareur=new Administrateur(1, "Wiem", "Matoussi", "WiemMatoussi@gmail.com");
+ 		 Administrateur administarteur=new Administrateur(1, "Wiem", "Matoussi", "WiemMatoussi@gmail.com");
 
 		  
 		    System.out.println("|   MENU SELECTION                                             |");
@@ -23,7 +23,7 @@ public class Main {
 		    // Switch construct
 		    switch (session) {
 		    	case 1:
-		    		System.out.println("Session Administrateur \n \n");
+		    		System.out.println("Session Administrateur: "+administarteur.getNom()+"\n \n");
 		   
 			 
 		    		System.out.println("Ajouter Produits et Utilisateurs \n \n");
@@ -66,6 +66,7 @@ public class Main {
 		      
 		      
 		    	case 2:
+		    		
 		    		//On a testé pour un seul utilisateur
 		    		System.out.println("Session Utilisateur (Agent commercial) \n \n");
 		    		//Instantiation d'une facture (Commande)
