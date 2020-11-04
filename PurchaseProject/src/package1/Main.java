@@ -111,7 +111,7 @@ public class Main {
 		  			L.afficherLigneCommande();
 		  			L1.afficherLigneCommande();
 		  			
-		  			//Affichage de la (commande) facture entière
+		  			//Affichage de la commande (facture) entière
 		  			F.AfficherCommande();
 		  	
 		  			break;
