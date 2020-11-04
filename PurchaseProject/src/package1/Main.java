@@ -38,9 +38,9 @@ public class Main {
 		    		System.out.println("Entrer l'email utilisateur");
 		    		String email1=sc.nextLine();
 		     
-		    		Utilisateur U=new Utilisateur(id ,nom1, prenom1, email1);
-		    		U.ajouterUtilisateur(U);
-		    		U.afficherUtilisateur();
+		    		Utilisateur Agent=new Utilisateur(id ,nom1, prenom1, email1);
+		    		Agent.ajouterUtilisateur(Agent);
+		    		Agent.afficherUtilisateur();
 		  	
 		    		
 		    		//Ces instructions permettent d'ajouter un produit
@@ -66,11 +66,11 @@ public class Main {
 		      
 		      
 		    	case 2:
-		    		//on a testé pour un seul utilisateur
+		    		//On a testé pour un seul utilisateur
 		    		System.out.println("Session Utilisateur (Agent commercial) \n \n");
-		    		Utilisateur Agent= new Utilisateur(1, "X", "Y", "X@gmail.com");
 		    		//Instantiation d'une facture (Commande)
 		    		Facture F= new Facture(1);
+		    		//Enregistrer une ligne de commande
 		    		System.out.println("Enregistrer une ligne commande:");
 		    		System.out.println("Entrer la référence produit");
 		    		int r=sc.nextInt();
