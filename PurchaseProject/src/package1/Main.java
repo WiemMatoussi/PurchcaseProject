@@ -92,19 +92,26 @@ public class Main {
 		    		int qt=sc.nextInt();
 
 		    		LigneCommande L1= new LigneCommande(1, qt, P2);
+		    		
+		    		//Le résultat du prix total d'une quantité donnée
 		    		double q=L.montantLigneCommande();
 		    		double q1=L1.montantLigneCommande();
 		  	
-		  	
+		    		//Ajout et affichage d'une ligne de commande
 		    		F.AjouterLigneCommande(L);
 		    		F.AjouterLigneCommande(L1);
 		    		System.out.println(q+" $ est le résultat du prix total de la ligne de commande/facture numéro 1");
 		  			System.out.println(q1+" $ est le résultat du prix total de la ligne de commande/facture numéro 2");
-
+		  			
+		  			// Calcul du prix total d'une commande (facture)
 		  			double T=F.PrixTotalCommande();
 		  			System.out.println("Le Prix total de la commande "+T +"$ \n \n");
+		  			
+		  			//Affichage des lignes de commandes
 		  			L.afficherLigneCommande();
 		  			L1.afficherLigneCommande();
+		  			
+		  			//Affichage de la (commande) facture entière
 		  			F.AfficherCommande();
 		  	
 		  			break;
