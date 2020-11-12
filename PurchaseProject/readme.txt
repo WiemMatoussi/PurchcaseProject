@@ -3,9 +3,9 @@ using Mysql.
 
 The 'buildstore.sql' file contains the script to create the tables of our database.
 
-In this second part of the project, we behaved as an administrator,ie  we have presented the
- administrator menu.
+In this second part of the project, we behaved as an administrator,ie  we have presented 
+the administrator menu.
 
-Our Java application has different functionalities, it allows to:  Add and display users, Add, modify, delete and find books by
-their id. Also, it allows to add an invoice, record an order in the database and calculate the 
-total price of an order.
+Our Java application has different functionalities, it allows to:  Add and display users,
+ add, modify, delete and find books by their id. Also, it allows to add an invoice, record an 
+ order in the database and calculate the total price of an order.
