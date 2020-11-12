@@ -1,4 +1,4 @@
-package package1;
+package metier;
 
 import java.util.Vector;
 
@@ -7,7 +7,7 @@ public class Produit {
 	
 	
 	private int reference;
-	private double prixUitaire;
+	private double prixUnitaire;
 	private String nomProduit;
 	private String categorie;
 	private double quantitestock;
@@ -15,10 +15,10 @@ public class Produit {
 	private Produit [] Pr =new Produit[max];
 	int i=0;
 	
-	public Produit(int reference, double prixUitaire, String nomProduit, String categorie, int quantitestock) {
+	public Produit(int reference, double prixUnitaire, String nomProduit, String categorie, int quantitestock) {
 		
 		this.reference = reference;
-		this.prixUitaire = prixUitaire;
+		this.prixUnitaire = prixUnitaire;
 		this.nomProduit = nomProduit;
 		this.categorie = categorie;
 		this.quantitestock = quantitestock;
@@ -26,17 +26,17 @@ public class Produit {
 	}
 	
 	
-	public double getReference() {
+	public int getReference() {
 		return reference;
 	}
 	public void setReference(int reference) {
 		this.reference = reference;
 	}
-	public double getPrixUitaire() {
-		return prixUitaire;
+	public double getPrixUnitaire() {
+		return prixUnitaire;
 	}
-	public void setPrixUitaire(double prixUitaire) {
-		this.prixUitaire = prixUitaire;
+	public void setPrixUnitaire(double prixUnitaire) {
+		this.prixUnitaire = prixUnitaire;
 	}
 	public String getNomProduit() {
 		return nomProduit;
@@ -73,7 +73,7 @@ public class Produit {
 		
 		for(int i=0; i<Pr.length;i++) {
 			
-			System.out.println("Affichage de produit ajouté: Réference: "+Pr[i].reference+", prix Uitaire: "+prixUitaire+", Catégorie: "+categorie+ ", Quantité en stock: "+quantitestock );
+			System.out.println("Affichage de produit ajouté: Réference: "+Pr[i].reference+", prix Unitaire: "+prixUnitaire+", Catégorie: "+categorie+ ", Quantité en stock: "+quantitestock );
 			
 		}
 	
