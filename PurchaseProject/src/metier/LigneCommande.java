@@ -27,14 +27,6 @@ public class LigneCommande {
 
 
 	
-
-
-
-
-
-
-	//Méthode qui permet de multiplier le prix unitaire d'un produit avec la quantité qui lui est associée.
-
 	public int getIdLigneCommande() {
 		return idLigneCommande;
 	}
