@@ -42,8 +42,8 @@ CREATE TABLE `LigneCommande` (
 
 CREATE TABLE `Personne` (
   `id` integer NOT NULL,
-  `nom,` varchar(50) default NULL,
-  `prenom,` varchar(50) default NULL,
+  `nom` varchar(50) default NULL,
+  `prenom` varchar(50) default NULL,
   `email` varchar(50) default NULL,
   `session` varchar(50)  default NULL,
   PRIMARY KEY  (`id`),
